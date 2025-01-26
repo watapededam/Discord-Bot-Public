@@ -1,0 +1,5 @@
+{
+    // This configuration file allows you to add global parameters for your Discord bot
+    // You can add additional settings for different cogs or bot functionalities as needed
+    "bot_channel": 123456789012345678
+}
