@@ -23,7 +23,7 @@ Create and activate a virtual environment with ```python3.11 -m venv venv && sou
 ## 3. Install dependencies: 
 Install the required Python packages listed in requirements.txt using ```pip install -r requirements.txt```
 ## 4. Set up environment variables: 
-Create a .env file in the root directory and add your Discord bot token as ```TOKEN=your_discord_bot_token```
+Create a ```.env``` file in the root directory and add your Discord bot token as ```TOKEN=your_discord_bot_token```
 ## 5. Configure the bot: 
 Create a config.json file in the root directory with the required configuration. Example: ```{"bot_channel": 123456789012345678}```
 
