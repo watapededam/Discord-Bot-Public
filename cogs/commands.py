@@ -15,9 +15,7 @@ class Commands(commands.Cog):
 
     @commands.command(name="Hello")
     async def hello(self, ctx):
-        bot_channel = self.bot.get_channel(self.bot.global_config['bot_channel'])
-        if ctx.channel.id == bot_channel.id:
-            await bot_channel.send("Hello")
+        await ctx.send("Hello")
 
     @commands.command(name="AdminCommand")
     @commands.has_permissions(administrator=True)
