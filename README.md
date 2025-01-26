@@ -50,5 +50,5 @@ Check the logs to ensure the bot is running using ```sudo tail -f /var/log/disco
 
 Additional Notes: To reload the bot's configuration or extensions, use the appropriate Discord commands (!reload or !extension). For debugging or maintenance, stop the bot with sudo supervisorctl stop discord_bot. Ensure the cogs folder is properly populated with your bot's extensions.
 
-#License:
+# License:
 This project is licensed under the MIT License.
